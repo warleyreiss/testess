@@ -1,0 +1,624 @@
+.bd-highlight{
+        background-color: white;
+        margin-bottom: 1rem;
+}.negrito-table {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        white-space: nowrap;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        vertical-align: middle;
+}
+
+.titulo-table {
+        border-collapse: collapse;
+        padding: 0px;
+        color: white;
+        font-style: normal;
+        text-decoration: none;
+        border: 2px solid #12192c;
+        white-space: nowrap;
+        font-size: 12.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        width: 583pt;
+
+        background-color: #12192c;
+        margin-bottom: 2rem;
+}
+
+.subtitulo-table {
+        border-collapse: collapse;
+        padding: 0px;
+        color: white;
+        text-decoration: none;
+        border: 2x solid #000000;
+        white-space: nowrap;
+        color: black;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        background-color: #c6c6c6;
+        margin-bottom: 2rem;
+}
+
+.destaque-table {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        white-space: nowrap;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: left;
+        vertical-align: middle;
+}
+
+.texto-table {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        white-space: nowrap;
+        font-size: 10.0pt;
+        font-family: Arial, sans-serif;
+        vertical-align: middle;
+}
+
+.linha-superior-inicio-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: .5pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        border-left: 1.0pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        width: 28pt;
+        border-top: 1pt solid windowtext;
+}
+
+.linha-superior-meio-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: .5pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        border-left: none;
+        width: 146pt;
+        border-top: 1pt solid windowtext;
+}
+
+.linha-superior-final-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: 1.0pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        border-left: none;
+        width: 91pt;
+        border-top: 1pt solid windowtext;
+}
+
+.linha-meio-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        white-space: nowrap;
+        font-size: 10.0pt;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border: .5pt solid windowtext;
+        border-top: none;
+        border-left: none;
+}
+
+.linha-meio-inicio-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-top: none;
+        border-right: .5pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        border-left: 1.0pt solid windowtext;
+        white-space: normal;
+        width: 28pt;
+}
+
+.linha-meio-final-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: 1.0pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        border-left: none;
+        width: 91pt;
+
+}
+
+.linha-inferior-inicio-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: .5pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        border-left: 1.0pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        width: 28pt;
+        border-top: 1pt solid windowtext;
+}
+
+.linha-inferior-meio-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: .5pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        border-left: none;
+        width: 146pt;
+        border-top: 1pt solid windowtext;
+}
+
+.linha-inferior-final-bordas {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-size: 10.0pt;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        border-right: 1.0pt solid windowtext;
+        border-bottom: .5pt solid windowtext;
+        white-space: normal;
+        border-top: none;
+        border-left: none;
+        width: 91pt;
+}
+
+.texto-soma {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        white-space: nowrap;
+        font-size: 12.0pt;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        text-align: right;
+        vertical-align: middle;
+        width: 583pt;
+        margin-bottom: 2rem;
+
+}
+
+.linha-separacao-tabela {
+        border-top: 1px solide black;
+}
+
+.texto-direita {
+        border-collapse: collapse;
+        padding: 0px;
+        color: black;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        white-space: nowrap;
+        font-size: 12.0pt;
+        font-family: Arial, sans-serif;
+        text-align: right;
+        vertical-align: middle;
+        width: 583pt;
+        margin-bottom: 2rem;
+}
+
+.texto-grande {
+        font-size: 25px;
+}
+
+.texto-medio {
+        font-size: 16px;
+}
+
+
+/*CSS para impressão*/
+@media print {
+        #form-trasnfer {
+                display: none;
+        }
+
+        #header {
+                display: none;
+        }
+        .negrito-table {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                white-space: nowrap;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                vertical-align: middle;
+        }
+        
+        .titulo-table {
+                border-collapse: collapse;
+                padding: 0px;
+                color: white;
+                font-style: normal;
+                text-decoration: none;
+                border: 2px solid #12192c;
+                white-space: nowrap;
+                font-size: 12.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                width: 583pt;
+        
+                background-color: #12192c;
+                margin-bottom: 2rem;
+        }
+        
+        .subtitulo-table {
+                border-collapse: collapse;
+                padding: 0px;
+                color: white;
+                text-decoration: none;
+                border: 2x solid #000000;
+                white-space: nowrap;
+                color: black;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                background-color: #c6c6c6;
+                margin-bottom: 2rem;
+        }
+        
+        .destaque-table {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                white-space: nowrap;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: left;
+                vertical-align: middle;
+        }
+        
+        .texto-table {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                white-space: nowrap;
+                font-size: 10.0pt;
+                font-family: Arial, sans-serif;
+                vertical-align: middle;
+        }
+        
+        .linha-superior-inicio-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: .5pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                border-left: 1.0pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                width: 28pt;
+                border-top: 1pt solid windowtext;
+        }
+        
+        .linha-superior-meio-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: .5pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                border-left: none;
+                width: 146pt;
+                border-top: 1pt solid windowtext;
+        }
+        
+        .linha-superior-final-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: 1.0pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                border-left: none;
+                width: 91pt;
+                border-top: 1pt solid windowtext;
+        }
+        
+        .linha-meio-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none;
+                white-space: nowrap;
+                font-size: 10.0pt;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border: .5pt solid windowtext;
+                border-top: none;
+                border-left: none;
+        }
+        
+        .linha-meio-inicio-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-top: none;
+                border-right: .5pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                border-left: 1.0pt solid windowtext;
+                white-space: normal;
+                width: 28pt;
+        }
+        
+        .linha-meio-final-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: 1.0pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                border-left: none;
+                width: 91pt;
+        
+        }
+        
+        .linha-inferior-inicio-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: .5pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                border-left: 1.0pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                width: 28pt;
+                border-top: 1pt solid windowtext;
+        }
+        
+        .linha-inferior-meio-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: .5pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                border-left: none;
+                width: 146pt;
+                border-top: 1pt solid windowtext;
+        }
+        
+        .linha-inferior-final-bordas {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                font-size: 10.0pt;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                border-right: 1.0pt solid windowtext;
+                border-bottom: .5pt solid windowtext;
+                white-space: normal;
+                border-top: none;
+                border-left: none;
+                width: 91pt;
+        }
+        
+        .texto-soma {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                white-space: nowrap;
+                font-size: 12.0pt;
+                font-weight: 700;
+                font-family: Arial, sans-serif;
+                text-align: right;
+                vertical-align: middle;
+                width: 583pt;
+                margin-bottom: 2rem;
+        
+        }
+        
+        .linha-separacao-tabela {
+                border-top: 1px solide black;
+        }
+        
+        .texto-direita {
+                border-collapse: collapse;
+                padding: 0px;
+                color: black;
+                font-style: normal;
+                text-decoration: none;
+                border: none;
+                white-space: nowrap;
+                font-size: 12.0pt;
+                font-family: Arial, sans-serif;
+                text-align: right;
+                vertical-align: middle;
+                width: 583pt;
+                margin-bottom: 2rem;
+        }
+        
+        .texto-grande {
+                font-size: 25px;
+        }
+        
+        .texto-medio {
+                font-size: 16px;
+        }
+        
+}
